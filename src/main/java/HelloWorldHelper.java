@@ -2,7 +2,12 @@
  * Helper class - provides different languages.
  */
 public class HelloWorldHelper {
-public String useEnglish() {
+/**
+* Returns a greeting in English.
+*
+* @return "Hello World"
+*/
+public final String useEnglish() {
 return "Hello World";
 }
 /**
@@ -10,7 +15,7 @@ return "Hello World";
 *
 * @return "Hello Mundo"
 */
-public String useSpanish() {
+public final String useSpanish() {
 return "Hello Mundo";
 }
 }
